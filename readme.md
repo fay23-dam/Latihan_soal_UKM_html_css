@@ -7,7 +7,7 @@ Latihan Soal untuk Mengevaluasi Pembelajaran Kemarin Mengenai HTML dan CSS
 ## Membuat Tampilan Profil
 
 Buat tampilan profil seperti pada contoh dibawah
-![Deskripsi Gambar](gambar/lee_ruby.jpg "Judul Gambar")
+![Deskripsi Gambar](<gambar/Screenshot%20(274).png> "Judul Gambar")
 
 ## Gunakan kode html dibawah ini
 
