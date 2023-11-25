@@ -1,0 +1,30 @@
+h1 {
+  color: green;
+}
+
+h2 {
+  font-size: 12px;
+  background-color: rgb(151, 182, 121);
+  font-style: italic;
+}
+ul {
+  background-color: black;
+  list-style-type: none;
+  color: rgb(143, 130, 238);
+  margin-left: -40px;
+}
+#nim h2 {
+  border: 5px solid red;
+  width: 50%;
+  height: 50px;
+  background-color: aqua;
+  margin: 50px;
+  padding: 50px;
+}
+img {
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 3/3;
+  object-position: center;
+}
