@@ -15,8 +15,18 @@ nav .menu ul {
     display: flex;
     gap: 3rem;
     list-style-type: none;
+    
 }
+nav .menu ul li:hover {
+    transition: all .5s;    
+    background-color: #0e172c;
+    color : white;
 
+}
+nav .menu ul li a{
+    text-decoration: none;
+color: black;
+}
 header {
     display: flex;
     height: 30rem;
@@ -38,4 +48,64 @@ header .image img {
     object-position: top;
     border-radius: 100%;
     border: 2px solid rgb(60, 53, 53);
+}
+main{
+    background-color: #0e172c;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+main .deskripsi {
+width: 500px;
+padding: 25px;
+}
+main .deskripsi .barmain {
+    background-color: #FEC7D7;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+main .deskripsi .barmain h1{
+    margin-right: 30px;
+    color: white;
+}
+main .deskripsi .barmain h1:hover{
+    margin-right: 30px;
+    color: red;
+}
+main .deskripsi .deskmain{
+    background-color: white;
+    padding : 15px;
+    border-radius: 10px;
+}
+main .deskripsi .deskmain ul{
+    list-style-type: none;
+    line-height: 3rem;
+}
+main .deskripsi .deskmain ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    transition: all .5s;
+    border-radius: 10px;
+}
+main .deskripsi .deskmain ul li a:hover {
+    font-size: 18px;
+    text-decoration: none;
+    transition: all .5s;
+    color: white;
+    font-weight: bold;
+    background-color: #0e172c;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    padding: 15px;
+    background-color: #2b2e36;
+}
+footer p{
+    color: white;
+    text-align: center;
 }

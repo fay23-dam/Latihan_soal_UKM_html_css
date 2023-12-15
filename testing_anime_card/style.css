@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    margin: 20vh;    
+}
+.container .brand{
+    padding-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+.container .brand h1:last-child{
+    font-size: 20px;
+}
+
+.container .card{
+    margin-bottom: 50px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #e5e5f7;
+    background-color: #010108;
+    opacity: 1;
+    background-size: 23px 23px;
+    background-image: repeating-linear-gradient(45deg, #ffffff 0, #ffffff 2.3000000000000003px, #010108 0, #010108 50%);
+    margin-top: 5px;
+    background-color: #151515;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .card .main {
+    border-radius: 30px;
+    background-color: black;
+    padding: 15px 25px;
+    width: 40%;
+    height: 90%;
+}
+.container .card .main .nav ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    display: flex;
+    gap: 5rem;
+    list-style-type: none;
+    
+}
+.container .card article {
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+.container .card article .name{
+    position: absolute;
+    left: center;
+    font-size: 50px;
+    left: 50%;
+padding: 0;
+margin: 0;
+    transition: all 1s;
+}
+.container .card article .name h1:hover{
+    transition: all .5s;
+    color: #CE5937;
+    /* text-shadow: -11px -9px 0px #CE5937; */
+    color: rgb(255, 255, 255);
+text-shadow: -11px -9px 0px #CE5937, -21px -18px 0px #CE5937;
+}
+.container .card article .name h1{
+    margin-top: 100px;
+    transition: all .5s;
+    color: #CE5937;
+    
+}
+.container .card article .deskripsi{
+    text-align: justify;
+}
+.container .card .maingambar{
+    overflow: visible; /* Memastikan overflow visible untuk elemen .card */
+    position: relative; /* Menambahkan position relative pada .card */
+    
+}
+.container .card .gambar {
+    position: absolute; /* Menetapkan posisi absolut untuk gambar */
+    bottom: 0; /* Menempatkan gambar di bagian bawah .card */
+    right: 0; /* Atur posisi horizontal gambar di luar batas kanan .card */
+}
+.container .card .gambar img {
+    width: 250px;
+    margin-right: 50%;
+    margin-bottom: -5px;
+    height: fit-content;
+    z-index: 99; /* Menjadikan gambar menonjol di atas konten lain */
+}
+.container .card:last-child{
+   background-color: #e5e5f7;
+   opacity: 1;
+background: linear-gradient(135deg, #8a064855 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #8a0648 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #8a064855 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #8a0648 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
+background-position: 0 0, 0 0, 23px 40px, 23px 40px, 0 0, 23px 40px;
+}
+.container .name {
+    z-index: 99;
+}
